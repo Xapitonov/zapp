@@ -1,0 +1,192 @@
+<resources>
+	<string name="app_name">Zapp</string>
+	<string name="app_website_url">https://github.com/mediathekview/zapp</string>
+
+	<string name="activity_main_tab_live">Прямой эфир</string>
+	<string name="activity_main_tab_mediathek">Медиатека</string>
+	<string name="activity_main_tab_downloads">Загрузки</string>
+	<string name="activity_main_tab_continue_watching">Продолжить просмотр</string>
+	<string name="activity_main_tab_bookmarks">Закладки</string>
+	<string name="activity_main_tab_personal">Мои передачи</string>
+
+	<string name="about_summary">Zapp является частью MediathekView и предоставляет быстрый доступ к множеству немецких общественных телеканалов. Смотрите ARD, ZDF и другие каналы в прямом эфире или из медиатеки.</string>
+	<string name="about_feedback_mail_subject">Отзыв о Zapp</string>
+
+	<string name="changelog_title">Журнал изменений</string>
+
+	<string name="faq_title">Часто задаваемые вопросы</string>
+
+	<string name="activity_channel_detail_info_error">Информация о программе отсутствует</string>
+
+	<string name="activity_settings_title">Настройки</string>
+	<string name="activity_channel_selection_title">Изменить список каналов</string>
+	<string name="activity_channel_selection_help_text">Перетащите серые полосы для сортировки списка каналов.\n\nНажатие включает или выключает канал.</string>
+
+	<string name="view_program_info_show_time">%1$s – %2$s</string>
+
+	<!-- mediathek -->
+	<string name="fragment_mediathek_no_results">Передачи не найдены</string>
+	<string name="fragment_mediathek_time">В эфире с</string>
+	<string name="fragment_mediathek_channel">Канал</string>
+	<string name="fragment_mediathek_duration">Длительность</string>
+	<string name="fragment_mediathek_website">Веб-сайт</string>
+	<string name="fragment_mediathek_batch_subtitle">СТ</string>
+	<string name="fragment_mediathek_qualities_title">Выберите качество</string>
+	<string name="fragment_mediathek_qualities_low">Низкое</string>
+	<string name="fragment_mediathek_qualities_medium">Среднее</string>
+	<string name="fragment_mediathek_qualities_high">Высокое</string>
+	<string name="fragment_mediathek_download">Загрузить</string>
+	<string name="fragment_mediathek_download_retry">Повторить загрузку</string>
+	<string name="fragment_mediathek_download_queued">Ожидание загрузки…</string>
+	<string name="fragment_mediathek_download_running">Загрузка…</string>
+	<string name="fragment_mediathek_download_delete">Удалить загрузку</string>
+	<string name="fragment_mediathek_confirm_delete_dialog_title">Действительно удалить файл?</string>
+	<string name="fragment_mediathek_confirm_delete_dialog_text">Видео-файл будет удалён и может быть загружен снова.</string>
+	<string name="fragment_mediathek_query_info">%1$s результатов поиска из %2$s</string>
+
+	<!-- personal -->
+	<string name="fragment_personal_no_results_downloads">Загрузки не найдены</string>
+	<string name="fragment_personal_no_results_continue_watching">Начатые передачи не найдены</string>
+	<string name="fragment_personal_no_results_bookmarks">Закладки не найдены</string>
+	<string name="fragment_personal_today">Сегодня</string>
+
+	<!-- error messages -->
+	<string name="error_informal">Опс!</string>
+	<string name="error_report">Сообщить об ошибке</string>
+	<string name="error_app_crash">Извините, произошла ошибка.\nХотите отправить отчёт об ошибке разработчику, чтобы помочь исправить проблему?</string>
+	<string name="error_app_crash_tv">Извините, Zapp был неожиданно закрыт.</string>
+	<string name="error_app_crash_mail_subject">Отчёт о сбое Zapp</string>
+	<string name="error_app_crash_mail_body">Спасибо за ваш отчёт!\n\nСледующая информация поможет разработчикам исправить ошибку:\n</string>
+
+	<string name="error_stream_unknown">Видео не может быть воспроизведено из-за неизвестной ошибки.</string>
+	<string name="error_stream_no_file_access">Zapp не может получить доступ к видеофайлу.</string>
+	<string name="error_stream_no_bad_http_status">Видео больше не доступно или недоступно в вашей стране.</string>
+	<string name="error_stream_io">Не удалось загрузить видео. Возможно, нет подключения к интернету или видео недоступно в вашем регионе.</string>
+	<string name="error_stream_unsupported">Видео повреждено или формат не поддерживается.</string>
+	<string name="error_stream_not_in_unmetered_network">Воспроизведение через платные сети отключено в настройках.</string>
+
+	<string name="error_mediathek_info_not_available">Ошибка загрузки медиатеки. Пожалуйста, проверьте подключение к интернету.</string>
+	<string name="error_mediathek_ssl_error">Ваше устройство не может установить защищённое соединение с сервером. Скорее всего, поможет обновление Android.</string>
+	<string name="error_mediathek_generic_start_download_error">Не удалось начать загрузку.</string>
+	<string name="error_mediathek_download_over_unmetered_network_only">Загрузка разрешена только при подключении к бесплатным сетям.</string>
+	<string name="error_mediathek_download_no_network">Нет соединения с интернетом.</string>
+
+	<string name="error_prefixed_message">Ошибка: %s</string>
+
+	<!-- menus & buttons -->
+	<string name="action_play">Воспроизвести</string>
+	<string name="action_share">Поделиться</string>
+	<string name="action_bookmark">Добавить в закладки</string>
+	<string name="action_remove_bookmark">Удалить из закладок</string>
+	<string name="action_continue">Продолжить</string>
+	<string name="action_open">Открыть</string>
+	<string name="action_cancel">Отмена</string>
+	<string name="action_send_mail">Отправить письмо</string>
+	<string name="action_play_in_background">Воспроизвести в фоне</string>
+	<string name="action_start_picture_in_picture">Картинка в картинке</string>
+	<string name="action_start_download">Скачать</string>
+	<string name="action_delete_download">Удалить загрузку</string>
+	<string name="action_cancel_download">Отменить загрузку</string>
+	<string name="action_mark_unwatched">Отметить как непросмотренное</string>
+	<string name="action_view_all">Показать все</string>
+
+	<string name="search_query_hint_zapp">Поиск в Zapp…</string>
+	<string name="search_query_hint_mediathek">Поиск в медиатеке…</string>
+	<string name="delete_search_query_content_description">Удалить запрос</string>
+	<string name="search_filter_help_text">Введите цифры или названия каналов для выбора фильтров!</string>
+
+	<string name="search_suggestion_header_last_searches">Последние поиски</string>
+	<string name="search_suggestion_header_local_suggestions">Предложения</string>
+	<string name="search_suggestion_clear_all_queries">Очистить все</string>
+
+	<string name="search_dialog_confirm_delete_search_history_title">Очистить историю поиска</string>
+	<string name="search_dialog_confirm_delete_search_history_text">Будут удалены все последние поисковые запросы.</string>
+
+	<string name="menu_refresh">Обновить</string>
+	<string name="menu_retry">Повторить</string>
+	<string name="menu_about">О Zapp</string>
+	<string name="menu_about_short">О программе</string>
+	<string name="menu_settings">Настройки</string>
+	<string name="menu_feedback">Обратная связь</string>
+	<string name="menu_filter">Фильтр</string>
+	<string name="menu_program_info">Информация о программе</string>
+	<string name="menu_voice_search">Голосовой поиск</string>
+	<string name="menu_delete_search_query_from_history">Удалить из истории поиска</string>
+
+	<!-- player -->
+	<string name="player_zoom_state_cropped">Приближено</string>
+	<string name="player_zoom_state_boxed">Оригинал</string>
+	<string name="sleep_timer">Таймер сна</string>
+	<string name="sleep_timer_delay">Промежуток времени (в минутах)</string>
+	<string name="sleep_timer_start">Запустить таймер сна</string>
+	<string name="sleep_timer_stop">Остановить таймер сна</string>
+	<string name="sleep_timer_add_5_minutes">+5 мин.</string>
+	<string name="sleep_timer_add_10_minutes">+10 мин.</string>
+	<string name="sleep_timer_add_20_minutes">+20 мин.</string>
+	<string name="sleep_timer_set_15_minutes">15 мин.</string>
+	<string name="sleep_timer_set_30_minutes">30 мин.</string>
+	<string name="sleep_timer_set_60_minutes">60 мин.</string>
+
+	<!-- preferences -->
+	<string name="pref_header_appearance">Облик</string>
+	<string name="pref_header_video_player">Проигрыватель</string>
+	<string name="pref_header_network">Сеть</string>
+	<string name="pref_header_channels">Каналы</string>
+	<string name="pref_header_data">Данные</string>
+
+	<string name="pref_ui_mode_title">Тема</string>
+	<string name="pref_language_title">Язык</string>
+
+	<string name="pref_detail_landscape_title">Всегда воспроизводить видео в ландшафтном режиме</string>
+	<string name="pref_detail_landscape_summary">Блокирует ориентацию приложения в ландшафтном режиме во время воспроизведения видео</string>
+
+	<string name="pref_key_pip_on_back_title">Автоматический режим картинка в картинке</string>
+	<string name="pref_key_pip_on_back_summary">Возобновляет воспроизведение в режиме «картинка в картинке» при выходе из проигрывателя</string>
+
+	<string name="pref_stream_quality_cellular_title">Качество видео в платных сетях</string>
+	<string name="pref_stream_quality_wifi_title">Другое качество видео</string>
+
+	<string name="pref_download_over_unmetered_network_only_title">Загружать только через бесплатные сети</string>
+	<string name="pref_download_over_unmetered_network_only_summary">Видео не будут загружаться при использовании, например, мобильной сети</string>
+
+	<string name="pref_channel_selection_title">Порядок каналов</string>
+
+	<string name="pref_shortcuts_title">Ярлыки каналов</string>
+	<string name="pref_shortcuts_summary_not_supported">Поддерживается с Android 7.1 и выше</string>
+	<string name="pref_shortcuts_summary_limit">Максимум 4 ярлыка</string>
+	<string name="pref_shortcuts_too_many">Максимум можно сохранить 4 ярлыка.</string>
+
+	<string name="pref_ui_mode_default">Системная по умолчанию</string>
+	<string name="pref_ui_mode_light">Всегда светлая</string>
+	<string name="pref_ui_mode_dark">Всегда тёмная</string>
+
+	<string name="pref_start_tab_title">Стартовая страница</string>
+
+	<string name="stream_quality_cellular_disabled">Не воспроизводить видео</string>
+	<string name="stream_quality_cellular_lowest">Низкое качество</string>
+	<string name="stream_quality_cellular_medium">Среднее качество</string>
+	<string name="stream_quality_cellular_highest">Высокое качество</string>
+
+	<string name="pref_download_to_sd_card_title">Сохранять на SD-карту</string>
+	<string name="pref_download_to_sd_card_summary">Видео будут сохраняться на SD-карту, если она доступна.</string>
+
+	<string name="pref_dynamic_colors">Динамические цвета</string>
+	<string name="pref_dynamic_colors_summary">Выбирать акцентные цвета на основе обоев устройства</string>
+
+	<string name="pref_detail_search_history_title">История поиска</string>
+	<string name="pref_detail_search_history_summary">Запоминать последние поисковые запросы</string>
+
+	<!-- notifications -->
+	<string name="notification_channel_name_background_playback">Воспроизведение в фоне</string>
+	<string name="notification_channel_name_download_progress">Прогресс загрузки</string>
+	<string name="notification_channel_name_download_event">События загрузки</string>
+
+	<!-- download notifications -->
+	<string name="notification_download_queued">Загрузка начнётся, как только все условия будут выполнены.</string>
+	<string name="notification_download_queued_for_retry">Загрузка прервана — ожидается попытка № %1$d.</string>
+	<string name="notification_download_downloading">Загрузка</string>
+	<string name="notification_download_downloading_size">%1$s / %2$s</string>
+	<string name="notification_download_complete">Загрузка завершена</string>
+	<string name="notification_download_failed">Ошибка загрузки</string>
+
+</resources>
