@@ -1,3 +1,5 @@
+[Deutsch](README.md) | [Русский](README_RU.md)
+
 [![Build and test](https://github.com/mediathekview/zapp/actions/workflows/build.yml/badge.svg)](https://github.com/mediathekview/zapp/actions/workflows/build.yml)
 
 <a href="https://f-droid.org/repository/browse/?fdid=de.christinecoenen.code.zapp" target="_blank">
